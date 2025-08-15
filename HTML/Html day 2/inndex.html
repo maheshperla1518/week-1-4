@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML session-2</title>
+  </head>
+  <body>
+    <h1>Welcomme to the Bootcamp of HTML-2</h1>
+
+    <!-- orderedlist and unordered lists -->
+    <ol type="1" start="12">
+      <li>mahesh</li>
+      <li>dinesh</li>
+      <li>suriya</li>
+    </ol>
+
+    <ol type="A" start="3">
+      <li>sai</li>
+      <li>naresh</li>
+      <li>naveen63</li>
+    </ol>
+
+    <!-- unordered lists -->
+    <ul type="circle">
+      <li>mahesh</li>
+      <li>naveen</li>
+      <li>manikhar</li>
+    </ul>
+
+    <!-- Tables -->
+    <table border="2px solid black">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Contact</th>
+      </tr>
+      <tr>
+        <td>Mahesh</td>
+        <td>Mahesh789@gmail.com</td>
+        <td>123598541</td>
+      </tr>
+      <tr>
+        <td>naveen</td>
+        <td>naveen@gmailcom</td>
+        <td>548645</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <!-- input fields -->
+    <form action="">
+      <h2>Registration Form</h2>
+      <label for="">Username:</label>
+      <input
+        type="text"
+        placeholder="enter your name"
+        value="mahesh"
+        required
+      />
+      <br /><br />
+      <label for="">Email:</label>
+      <input type="email" placeholder="enter your email" value="" />
+      <br /><br />
+      <input type="datetime-local" />
+      <br /><br />
+
+      <!-- radio -->
+      <label for="">Gender: </label>
+      <br />
+      <label for="" name="Gender">Male</label>
+      <input type="radio" name="Gender" />
+
+      <label for="" name="Gender">Female</label>
+      <input type="radio" name="Gender" />
+      <br /><br />
+
+      <!-- checkbox -->
+      <label for="">Subjects: </label>
+      <br />
+      <label for="" name="Mahths">Maths</label>
+      <input type="checkbox" name="Mahths" />
+
+      <label for="" name="physics">Physics</label>
+      <input type="checkbox" name="physics" />
+
+      <label for="" name="ComputerSci">ComputerScience</label>
+      <input type="checkbox" name="ComputerSci" />
+
+      <label for="" name="Stats">Stats</label>
+      <input type="checkbox" name="Stats" />
+      <br /><br />
+
+      <!-- Select -->
+      <label for="">Programming Lang Known</label>
+
+      <select name="Programming Lang">
+        <option value="c++">C++</option>
+        <option value="Java">Java</option>
+        <option value="Javascript">Javascript</option>
+      </select>
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
