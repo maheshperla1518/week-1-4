@@ -2,7 +2,7 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(29, 28, 28);
+    background-color: black;
 }
 
 .page{
@@ -114,6 +114,132 @@ body{
     gap: 24px;
     font-weight: bold;
 }
+
+.heading{
+    color: white;
+    margin-left: 160px;
+    font-size: 24px;
+}
+.cards-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 10px 150px;
+}
+.card{
+    width: 300px;
+    height: 280px;
+    background-color: rgb(28,24,48);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 14px;
+    padding: 14px 30px;
+    position: relative;
+}
+.card-tint{
+    background-color: rgba(0, 0, 0, 0.223);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 14px;
+}
+.icon{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.page3{
+    margin: 100px 0px;
+}
+.page3-title{
+    color: white;
+    font-size: 28px;
+    margin: 30px 150px;
+}
+.Q-boxes{
+    width: 80%;
+    margin: 0px 150px;
+    display: block;
+}
+.q-box{
+    background-color: rgb(45,45,45);
+    color: white;
+    height: 60px;
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.page-4{
+    margin: 60px 0px;
+}
+.input-tag2{
+    border: 1px solid rgb(146, 143, 143);
+    color: rgba(28, 27, 27, 0.544);
+    background-color: transparent;
+    width: 600px;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+.tollfreeno{
+    color: white;
+    font-size: 18px;
+    margin: 0px 150px;  
+    color: rgb(179,179,179);
+}
+
+.footer-content{
+    margin: 0px 150px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.ul-css{
+    text-decoration: underline;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    line-height: 30px;
+    color: rgb(179,179,179);
+}
+.en-btn2{
+    margin: 50px 150px;
+    background-color: transparent;
+    color: white;
+    padding: 8px 14px;
+    border: 1px solid rgb(104, 101, 101);
+    font-size: 14px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.netflix-india{
+    color: rgba(211, 211, 211, 0.634);
+    font-size: 18px;
+    margin: 0px 150px;
+}
+.last-para{
+    color: rgba(211, 211, 211, 0.408);
+    font-size: 14px;
+    margin: 30px 150px;
+}
+
 
 
 
