@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .box{
+    background-color: purple;
+    border: 2px solid rgb(1, 1, 1);
+    height: 500px;
+    width: 50%;
+    margin: 10px;
+
+} */
+
+@media (min-width: 700px) {
+  .card {
+    width: 550px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+    font-size: 16px;
+  }
+  .avatar {
+    width: 8em;
+    border-radius: 1em;
+  }
+  .text {
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .text h1 {
+    font-size: 2.2em;
+  }
+  .text p {
+    font-size: 0.95em;
+  }
+  .follow {
+    padding: 0.75em 1.5em;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    font-size: 0.85em;
+  }
+}
+@media (max-width: 699px) and (min-width: 500px) {
+  .card {
+    width: 400px;
+    margin: 50px auto;
+    padding: 16px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .avatar {
+    width: 8em;
+    border-radius: 4em;
+  }
+  .text {
+    font-size: 1em;
+    text-align: center;
+  }
+  .text h1 {
+    font-size: 2.4em;
+  }
+  .text p {
+    font-size: 1.2em;
+  }
+  .follow {
+    padding: 0.5em 1.3em;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 1em;
+    border: none;
+  }
+}
+
+@media (max-width: 499px) {
+  .card {
+    width: 250px;
+    margin: 50px auto;
+    padding: 12px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .avatar {
+    width: 8em;
+    border-radius: 4em;
+  }
+  .text {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .text h1 {
+    font-size: 2.4em;
+  }
+  .text p {
+    font-size: 1.2em;
+  }
+  .follow {
+    padding: 0.5em 1.3em;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 1em;
+    border: none;
+  }
+}
+
+
+
