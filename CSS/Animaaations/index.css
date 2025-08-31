@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 300px;
+    margin: 120px auto;
+    
+}
+.btn{
+    font-size: 16px;
+    padding: 16px 30px;
+    border-radius: 14px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: .7s;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.btn::after{
+    content: "";
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 14px;
+    transition: 10s;
+    z-index: -1;
+    color: white;
+    border-radius: 50%;
+}
+.btn:hover{
+    color: white;
+}
+.btn:hover::after{
+    transform: translate(-50%,-50%) scale(4);
+}
+
+/* learning-3 */
+img{
+    width: 350px;
+    border-radius: 14px;
+    transition: .3s;
+}
+img:hover{
+    transform: rotate(-5deg);
+}
+
+
+
+.demo{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: mah;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes mah{
+    from{
+
+    }
+    to{
+        margin-left: calc(100% - 100px);
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(211, 211, 211, 0.827);
+    border-radius: 50%;
+    border-top: 2px dotted black;
+    animation-name: loader;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes loader{
+    /* from{}
+    to{
+        transform: rotate(360deg);
+    } */
+
+    0%{border-top: 2px dotted black; transform: rotate(0deg);}
+    20%{border-top: 2px dotted blue; transform: rotate(30deg);}
+    40%{border-top: 2px dotted green; transform: rotate(60deg);}
+    60%{border-top: 2px dotted rgb(26, 114, 138); transform: rotate(120deg);}
+    80%{border-top: 2px dotted orange; transform: rotate(240deg);}
+    100%{border-top: 2px dotted red; transform: rotate(360deg);}
+}
+
+
+
+.slider{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.dribble-cards{
+    display: flex;
+    gap: 25px;
+    margin-top: 100px;
+    animation-name: slide-cards;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+}
+.card{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-color: blueviolet;
+    border-radius: 14px;
+    flex-shrink: 0;
+}
+@keyframes slide-cards{
+    0%{}
+    100%{
+        transform: translate(-100%);
+    }
+}
+
+.user{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.tint{
+    background-color: rgba(57, 52, 52, 0.405);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 14px;
+}
+
+
+
