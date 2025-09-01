@@ -255,6 +255,38 @@
     font-size: 14px;
     margin: 30px 150px;
   }
+
+  .slider{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left: 150px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    width: 80vw;
+  }  
+   .movies-tab{
+    width: 100vw;
+    display: flex;
+    gap: 50px;
+    animation-name: slider;
+    animation-duration: 80s;
+    animation-timing-function: linear;
+  }
+  .movie-card{
+    height: 260px;
+    width: 300px;
+    border-radius: 14px;
+    object-fit: cover;
+  }
+  .card-img{
+    width: 100%;
+  }
+  @keyframes slider{
+    0%{}
+    100%{
+      transform: translate(-50vw);
+    }
+  }
 }
 
 @media (min-width: 586px) and (max-width: 990px) {
@@ -519,7 +551,44 @@
     font-size: 14px;
     margin: 30px 150px;
   }
+
+  .slider{
+    display: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left: 150px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    width: 80vw;
+  }  
+   .movies-tab{
+    width: 100vw;
+    display: flex;
+    gap: 50px;
+    animation-name: slider;
+    animation-duration: 80s;
+    animation-timing-function: linear;
+  }
+  .movie-card{
+    height: 260px;
+    width: 300px;
+    border-radius: 14px;
+    object-fit: cover;
+  }
+  .card-img{
+    width: 100%;
+  }
+  @keyframes slider{
+    0%{}
+    100%{
+      transform: translate(-50vw);
+    }
+  }
+
 }
+
+
+
 @media (max-width: 586px) {
     body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -783,5 +852,39 @@
     font-size: 14px;
     margin: 30px 20px;
   }
+
+  .slider{
+    display: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left: 150px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    width: 80vw;
+  }  
+   .movies-tab{
+    width: 100vw;
+    display: flex;
+    gap: 50px;
+    animation-name: slider;
+    animation-duration: 80s;
+    animation-timing-function: linear;
+  }
+  .movie-card{
+    height: 260px;
+    width: 300px;
+    border-radius: 14px;
+    object-fit: cover;
+  }
+  .card-img{
+    width: 100%;
+  }
+  @keyframes slider{
+    0%{}
+    100%{
+      transform: translate(-50vw);
+    }
+  }
+
 }
 
