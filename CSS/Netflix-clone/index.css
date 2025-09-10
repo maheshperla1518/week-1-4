@@ -271,6 +271,7 @@
     animation-name: slider;
     animation-duration: 80s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }
   .movie-card{
     height: 260px;
@@ -553,25 +554,24 @@
   }
 
   .slider{
-    display: none;
+    /* display: none; */
     overflow-x: hidden;
     overflow-y: hidden;
-    margin-left: 150px;
+    margin-left: 40px;
     margin-top: 90px;
     margin-bottom: 50px;
-    width: 80vw;
+    width: 90vw;
   }  
    .movies-tab{
     width: 100vw;
     display: flex;
-    gap: 50px;
+    gap: 25px;
     animation-name: slider;
     animation-duration: 80s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }
   .movie-card{
-    height: 260px;
-    width: 300px;
     border-radius: 14px;
     object-fit: cover;
   }
